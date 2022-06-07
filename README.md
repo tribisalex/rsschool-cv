@@ -1,1 +1,1 @@
-https://tribisalex.github.io/rsschool-cv/
+tribisalex.github.io/rsschool-cv/
