@@ -26,6 +26,7 @@ Discord: Alexandr Tribis (@tribisalex)
     - I understand the structure of DOM;
     - I know the difference between a block element and a lowercase one;
     - I use HTML tags in accordance with semantics;
+
 - ####CSS:
     - I can create adaptive layout using media queries;
     - I use flexbox layout:
