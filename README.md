@@ -1,1 +1,1 @@
-# rsschool-cv
+tribisalex.github.io/rsschool-cv/
