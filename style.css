@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 *,
@@ -7,6 +8,10 @@ body {
 *:after,
 *:hover {
   box-sizing: border-box;
+}
+
+h1 {
+  color: #08345d;
 }
 
 .container {
@@ -42,10 +47,15 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .header-logo img {
-  width: 150px;
+  width: 100px;
+}
+
+.header-logo a {
+  text-decoration: none;
 }
 
 .nav {
@@ -74,6 +84,7 @@ body {
   padding: 10px 0;
   width: 40%;
   background-color: #054276;
+  color: aliceblue;
 }
 
 .second-block {
@@ -91,6 +102,8 @@ body {
   width: 90%;
   max-width: 250px;
   border-radius: 150px;
+  border: 5px solid white;
+  margin-bottom: 10px;
 }
 
 .name-cv-first_block {
@@ -102,21 +115,21 @@ body {
   text-transform: uppercase;
 }
 
-.contacts {
-  color: aliceblue;
-}
-
 .contacts-items {
-  padding: 10px;
+  padding: 10px 0;
 }
 
 .contacts-item {
+  list-style: none;
+}
+
+.contacts-item_name {
   font-weight: bolder;
   padding-right: 5px;
 }
 
 .skills {
-  margin: 0;
+  margin: 15px 0;
   color: white;
 }
 
@@ -150,7 +163,7 @@ body {
 }
 
 .name-cv-block img {
-  width: 30px;
+  width: 40px;
   height: 30px;
 }
 
@@ -160,13 +173,54 @@ body {
 }
 
 .row-block__name {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: #08345d;
   width: 30%;
+  font-size: 17px;
 }
 
 .row-block__item {
   width: 70%;
 }
 
+.row-block__item div {
+  margin: 5px;
+}
+
+.project-link a {
+  color: #054276;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.project-link li {
+  list-style: none;
+}
+
+.goal-item ul>li {
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.english-item {
+  font-size: 16px;
+  padding-left: 15px;
+}
+
+.code-item {
+  color: #054276;
+  text-decoration: none;
+  font-size: 16px;
+  padding-left: 15px;
+}
+
+.code-example {
+
+  color: #054276;
+  font-size: 16px;
+}
 
 .footer {
   margin: 10px 0;
@@ -195,7 +249,20 @@ body {
   margin: 0 40px;
 }
 
-.footer-year {
+.font-bold {
+  color: #054276;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.font-bolder {
+  color: #08345d;
   font-weight: bolder;
-  font-size: 28px;
+  font-size: 24px;
+}
+
+.font-italics {
+  color: #08345d;
+  font-style: italic;
+  font-size: 16px;
 }
